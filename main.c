@@ -1,8 +1,6 @@
-nclude "main.h"
-
-int main()
-{
-	        _printf("abrakadabra");
-		        printf("\n");
-			        return 0;
+#include "main.h"
+int main(){
+	int c = _printf("%d", 123);
+	printf("\n");
+	return 0;
 }
